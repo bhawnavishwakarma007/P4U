@@ -5,9 +5,9 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 const errorHandler = require('./middleware/module1Middleware/errorHandler');
 const adminRoutes = require('./routes/Auth/adminRoutes');
-const jobRoutes = require('./routes/p&r/jobRoutes');
-const AuthRoutes = require("./routes/p&r/AuthRoutes");
-const jobApplyRoutes = require('./routes/p&r/JobApplyRoutes');
+const jobRoutes = require('./routes/pnr/jobRoutes');
+const AuthRoutes = require("./routes/pnr/AuthRoutes");
+const jobApplyRoutes = require('./routes/pnr/JobApplyRoutes');
 
 
 dotenv.config();
